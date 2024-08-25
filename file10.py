@@ -49,18 +49,3 @@ print("It is the tempratur in farrenhiet:"),temp_2
 temp_3=int(input("enter the temp again:"))
 temp_4=temp-32*5/9
 print("temprature in celcius",temp_4)
-# program 9
-# Write a program that calculates the BMI using height (in meters) and weight (in kilograms) variables.
-print("BMI Calculator")
-weight = int(input("Enter your weight in kilograms: "))
-height = float(input("Enter your height in meters: "))
-bmi = weight / (height ** 2)
-
-if bmi < 18.5:
-    print('Underweight')
-elif 18.5 <= bmi < 25:
-    print("Normal weight")
-elif 25 <= bmi < 30:
-    print('Overweight')
-else:
-    print('Obesity')
