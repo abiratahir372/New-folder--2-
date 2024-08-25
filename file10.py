@@ -49,6 +49,3 @@ print("It is the tempratur in farrenhiet:"),temp_2
 temp_3=int(input("enter the temp again:"))
 temp_4=temp-32*5/9
 print("temprature in celcius",temp_4)
-
-# new code added
-print("Testing")
