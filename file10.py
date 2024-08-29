@@ -1,9 +1,9 @@
 # program 1
-#  Calculate your age based on the current year and your birth year.
-birth_year=int(input("enter your birthday year:"))
+#  Calculate your age based on the current year and your birth year.               
+birth_year=int(input("enter your birthday year:")) 
 current_year=int(input("enter current year:"))
 age=current_year-birth_year
-print("It your age=",(age)) 
+print("It your age=",("age")) 
 # program 2
 #  Write a program that calculates the area of a rectangle using length and width variables.
 length=int(input("enter the rectangle_length:"))
