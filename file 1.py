@@ -1,3 +1,5 @@
+#program no 1
+# program that calculates age
 print("Age Calculator")
 def ageCalculator()-> int:
     current_year:int= int(input("Enter the current year:"))
